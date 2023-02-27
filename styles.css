@@ -1,2 +1,16 @@
+body .card{
+    margin: 10px;
+}
+.card-deck .card {
+    height: 23rem;
+    width: 18rem;
 
-/* Your CSS Code here. */
+    border-bottom: 5px solid black;
+}
+.card-deck #last{
+    display: flex;
+    align-items:flex-end;
+}
+body .card-deck:last-child{
+    align-items: flex-end ;
+}
